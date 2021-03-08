@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font-family: 'Work Sans', sans-serif;
+	font-size: 1rem;
+
+	color: #fff;
+}
+
+body {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+	flex-direction: column;
+
+	height: 100vh;
+
+	overflow: hidden;
+
+	background-color: #212330;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+#display {
+	width: 500px;
+	height: 500px;
+
+	background-color: #000;
+
+	border: 2px solid #fff;
+
+	image-rendering: pixelated;
+}
